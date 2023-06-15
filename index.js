@@ -6,6 +6,8 @@ const inquirer = require('inquirer');
 const db = require('./db/connection');
 
 // Start server after DB connection
+
+
 db.connect(err => {
     if (err) throw err;
     console.log();
@@ -35,6 +37,7 @@ var employeeTrackerMenu = function () {
 
         .then((answers) => {
             // Views the Table in the Database
+
             if (answers.prompt === 'View All Department') {
                 db.query(`SELECT * FROM department`, (err, result) => {
                     if (err) throw err;
@@ -59,6 +62,7 @@ var employeeTrackerMenu = function () {
             } else if (answers.prompt === 'Add A Department') {
                 inquirer.prompt([{
                     // Adding a Department
+
                     type: 'input',
                     name: 'department',
                     message: 'What is the name of the dpeartment?',
@@ -79,6 +83,7 @@ var employeeTrackerMenu = function () {
                 })
             } else if (answers.prompt === 'Add A Role') {
                 // viewing different select database.
+
                 db.query(`SELECT * FROM department`, (err, result) => {
                     if (err) throw err;
 
@@ -140,6 +145,7 @@ var employeeTrackerMenu = function () {
                     })
                 });
             } else if (answers.prompt === 'Add An Employee') {
+
                 // Calling the database to acquire the roles and managers
                 db.query(`SELECT * FROM employee, role`, (err, result) => {
                     if (err) throw err;
