@@ -274,7 +274,7 @@ var employeeTrackerMenu = function () {
                 });
             } else if (answers.prompt === 'No Action') {
                 db.end();
-                console.log("Bey!");
+                console.log(" Bey!");
             }
         })
 };
