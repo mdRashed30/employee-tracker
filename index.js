@@ -174,7 +174,7 @@ var employeeTrackerMenu = function () {
                             }
                         },
                         {
-                            // Adding Employee Role
+                            //Adding Employee Role
                             type: 'list',
                             name: 'role',
                             message: 'What is the employees role?',
