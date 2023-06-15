@@ -5,7 +5,6 @@
 A database where an employer can view and manage their departments, roles, and employees.
 
 <hr>
-
 ## Table of Contents
 
 1. [The Task](#the-task)
