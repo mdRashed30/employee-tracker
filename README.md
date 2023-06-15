@@ -74,11 +74,11 @@ Steps to run application :
 
 ## Video:
 
-![Note Taker](assest/Screenshot.png)
+[Employee-Tracker](https://drive.google.com/file/d/1ut1vZBxpnSMLGjwTx_naPTxoQ_I2snwF/view?usp=sharing)
 
 ## links
 
-- [Github Repo](https://github.com/mdRashed30/-10-Weekly-Challenges-Note-Taker-)
+- [Github Repo](https://github.com/mdRashed30/employee-tracker)
 
 ## acknowledgements :
 
